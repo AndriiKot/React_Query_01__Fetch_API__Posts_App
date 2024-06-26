@@ -5,6 +5,4 @@
   return data;
 };
 
-fetchPosts();
-
 export default fetchPosts;

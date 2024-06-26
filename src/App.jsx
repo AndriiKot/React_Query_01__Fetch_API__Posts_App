@@ -2,10 +2,11 @@ import "./App.css";
 import CardsList from "./Card/CardsList";
 import Loading from "./Loading/Loading";
 import FetchPosts from "./FetchPosts/FetchPosts";
+import { useQuery } from "react-query";
 
 function App() {
-  const { loading, error, posts } = FetchPosts();
-  console.log(posts);
+  // const data = useQuery("posts", fetchPosts);
+  // console.log(data);
   // if (loading) {
   //   return <Loading />;
   // }
@@ -17,7 +18,7 @@ function App() {
   //   return <p>No posts found.</p>;
   // }
 
-  return <CardsList list={posts} />;
+  // return <CardsList list={posts} />;
 }
 
 export default App;
