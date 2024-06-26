@@ -5,6 +5,8 @@ import FetchPosts from "./FetchPosts/FetchPosts";
 import { useQuery } from "react-query";
 
 function App() {
+  const { data: posts, loading, error } = useQuery("posts", FetchPosts);
+  console.log(posts);
   // const data = useQuery("posts", fetchPosts);
   // console.log(data);
   // if (loading) {
