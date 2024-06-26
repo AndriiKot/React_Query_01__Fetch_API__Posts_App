@@ -1,0 +1,15 @@
+﻿.card {
+  width: 15rem;
+  border: 4px solid rgb(59, 50, 50);
+  color: rgb(59, 50, 50);
+  background-color: rgb(185, 173, 173);
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: left;
+  p {
+    margin: 0 0 0 0.5rem;
+  }
+  h3 {
+    margin: 0.5rem 0 0 0.5rem;
+  }
+}
