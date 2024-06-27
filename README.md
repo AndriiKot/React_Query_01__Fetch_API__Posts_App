@@ -12,4 +12,15 @@
     </a>
   </span>
 
+  <span class="Vite">
+    <a href="https://vitejs.dev/">
+      <img
+        src="https://github.com/AndriiKot/___Icons__and__Links___/blob/main/icons/vitejs.svg"
+        alt="Vite logo"
+        width="100"
+        height="100"
+      />
+    </a>
+  </span>
+
 ### ![My App React Query 04](https://github.com/AndriiKot/React_Query__01/blob/main/__demo__/images/img_v1_0_0.png)
