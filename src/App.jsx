@@ -5,7 +5,14 @@ import FetchPosts from "./FetchPosts/FetchPosts";
 import { useQuery } from "@tanstack/react-query";
 
 function App() {
-  const { data: posts, isLoading, isError } = useQuery("posts", FetchPosts);
+  const {
+    data: posts,
+    isLoading,
+    isError,
+  } = useQuery({
+    queryKey: ["posts"],
+    queryFn: FetchPosts,
+  });
   if (isLoading) {
     return <Loading />;
   }
