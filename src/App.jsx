@@ -2,7 +2,7 @@ import "./App.css";
 import CardsList from "./Card/CardsList";
 import Loading from "./Loading/Loading";
 import FetchPosts from "./FetchPosts/FetchPosts";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 
 function App() {
   const { data: posts, isLoading, isError } = useQuery("posts", FetchPosts);
