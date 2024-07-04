@@ -1,7 +1,6 @@
 # React Query 04    (Fetch API)
 ## Posts App
 
-
   <span class="React">
     <a href="https://react.dev/">
       <img
